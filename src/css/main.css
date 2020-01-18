@@ -66,7 +66,7 @@ a:hover {
   @apply text-green-800;
 }
 
-nav .active {
+nav .active--exact {
   font-weight: bold;
   @apply border-black border-b;
 }

@@ -48,7 +48,7 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Gridsome Portfolio Starter Blog',
+          title: 'Jasmine Dragon Philosophy Blog',
           feed_url: 'https://jasmine-dragon-philosophy.netlify.com/rss.xml',
           site_url: 'https://jasmine-dragon-philosophy.netlify.com/'
         },

@@ -38,12 +38,7 @@
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
-            <a
-              v-if="$route.path === '/'"
-              href="/"
-              class="text-copy-primary hover:text-gray-600"
-            >About</a>
-            <g-link v-else to="/" class="text-copy-primary hover:text-gray-600">About</g-link>
+            <g-link to="/" class="text-copy-primary hover:text-gray-600">About</g-link>
           </li>
           <li class="mr-8 mb-6 lg:mb-0">
             <a
